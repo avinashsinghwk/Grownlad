@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500&family=Kanit:wght@500&family=Oswald:wght@500&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500&family=Kanit:wght@500&family=Orelega+One&family=Oswald:wght@500&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500&family=Kanit:wght@500&family=Merriweather+Sans:ital@1&family=Orelega+One&family=Oswald:wght@500&family=Roboto+Slab&display=swap');
+
+.flex-align-center-jusfity-flex-end{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

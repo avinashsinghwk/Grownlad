@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 75px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px dotted black;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+.logo img{
+    height: 32px;
+    width: 169px;
+    padding: 0 40px;
+}
+nav ul{
+    list-style: none;
+    padding: 0 8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+nav ul li{
+    padding:0 10px;
+}
+nav ul li a:hover{
+    font-weight:bold;
+}
+.btn button{
+    display: inline-block;
+    width: 81px;
+    height: 34px;
+    margin: 0 8px;
+    background-color: blue;
+    border-radius: 8px;
+    cursor: pointer;
+}
+ .btn button a{
+    text-decoration: none ;
+    color: white;   
+}
+.btn button:hover{
+    background-color: #0404c4;
+    font-weight: bold;
+}
+.two{
+    margin-right:40px ;
+}
+.container1{
+    height: 62vh;
+    position:relative;
+    z-index:0;
+}
+.container1 img{
+    height: 360px;
+    width: 520px;
+    transform: translate(809px,17px)
+}
+.info h2{
+    margin: -250px 0px 13px 200px;
+    font-size: 5vh;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-family: 'Roboto Slab', serif;
+}
+.info h2 em{
+    color:blue;
+}
+.info p{
+    width: 40vw;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 98px;
+}
+.btn2 button{
+    width: 85px;
+    height: 38px;
+    margin: 12px 8px;
+    background-color: rgb(26, 46, 40);
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    left: 174px;
+}
+.btn2 button a{
+    text-decoration: none;
+    color: white;
+}
+.btn2 button:hover{
+    font-weight: bold;
+    background-color: rgb(33, 68, 57);
+}
+.container2{
+    height: 70vh;
+}
+.container2 h2{
+    text-align: center;
+    font-size: 4vh;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 30px;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    height: 70px;
+    position: relative;
+    background-color: bisque;
+}
+.roundLogo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+.name{
+    color: blue;
+    position: absolute;
+    bottom: 15px;
+    left: 115px;
+    font-size: 5vh;
+    font-family: 'Roboto Slab', serif;
+}
+.copyright{
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+    font-family: 'Roboto Slab', serif;
+}
+.socialmedia{
+    margin: 0 30px 0 0;
+}
+ .socialmedia a img{
+            height: 20px;
+            width: 20px;
+            margin: 12px 7px 0 0;        
+} 
+.socialmedia a img:hover{
+            height: 22px;
+            width: 22px;          
+}
